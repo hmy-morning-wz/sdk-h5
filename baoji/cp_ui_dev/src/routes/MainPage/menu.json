@@ -1,0 +1,52 @@
+{
+  "routerList": [
+    {
+      "icon": "/images/610300/chengchema@3x.png",
+      "name": "乘车码",
+      "code": "usingQr",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/chengchejilu@3x.png",
+      "name": "乘车记录",
+      "code": "travelRecord",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/kapianyuehui 1@3x.png",
+      "name": "卡片余额",
+      "code": "balance",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/kapian@3x.png",
+      "name": "卡片充值",
+      "code": "recharge",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/shiyongfanwei@3x.png",
+      "name": "使用范围",
+      "code": "openLines",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/shiyongbangzhu@3x.png",
+      "name": "使用帮助",
+      "code": "faq",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/fuwuxieyi@3x.png",
+      "name": "服务协议",
+      "code": "cardApply",
+      "flag": [-1]
+    },
+    {
+      "icon": "/images/610300/tuikashenqing@3x.png",
+      "name": "退卡申请",
+      "code": "unregister",
+      "flag": [-1]
+    }
+  ]
+}

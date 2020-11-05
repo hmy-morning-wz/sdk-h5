@@ -1,0 +1,345 @@
+html, body, :global(#root) {
+	background: #fff !important;
+	// min-height: 100% !important;
+}
+
+.win {
+	height: 100%;
+	background: #fff;
+}
+
+.space {
+	background: #fff;
+}
+
+.pricebg {
+	background: #fff;
+	width: 100%;
+}
+
+.rechargeBan {
+	margin: 0 auto;
+	text-align: center;
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.tips {
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #ADADAD;
+	padding: 20px;
+	line-height: 33px;
+}
+
+.priceRect {
+	text-align: center;
+	background: #fff;
+	border: 0.5px solid #a2a2a2;
+	border-radius: 6px;
+	font-family: PingFangSC-Regular;
+	font-size: 36px;
+	color: #505064;
+	line-height: 1rem;
+	width: 30%;
+	height: 1rem;
+	margin: 10px 1.5%;
+	&.selected {
+		color: rgb(255, 255, 255);
+		background: #108ee9;
+	}
+}
+
+.priceSelected {
+	background: url("../../assets/rechargebox@3x.png");
+	background-size: 100% 100%;
+	border: 0.8px solid #F79F00;
+	font-family: PingFangSC-Regular;
+	font-size: 36px;
+	color: #F79F00;
+}
+
+.clearLine {
+	clear: both;
+	height: 0;
+}
+
+.fixButton {
+	// position: fixed;
+	// bottom: 10px;
+	margin-left: 3%;
+	// left: 0;
+	z-index: 99;
+	width: 94%;	
+	margin-top: 100px;
+}
+
+.btn_links {
+	text-align: center;
+	font-size: 28px;
+	color: #ADADAD;
+	margin-top: 50px;
+	bottom: 0;
+}
+
+.btn_links a {
+	padding: 0px 10px;
+}
+
+.basicInfoValue {
+	font-size: 32px;
+	color: #000000;	
+}
+
+.wrapCard {
+	height: 80px;
+	line-height: 80px;
+	padding: 8px 10px;
+	background: #fff;
+	font-family: PingFangSC-Regular;
+	font-size: 32px;
+	color: #A2A2A2;
+}
+
+.cardNO {
+	float: left;
+    width: 100%;
+    text-align: left;
+		white-space: nowrap;
+    overflow: hidden;
+		text-overflow: ellipsis;
+		font-family: PingFangSC-Regular;
+		font-size: 32px;
+		color: #A2A2A2;
+		padding: 0 2%;
+}
+
+
+.btn {
+	width: 93%;
+	margin: 0 auto;
+	background: #FFB42F;
+	border-radius: 64px;
+	font-family: PingFangSC-Regular;
+	font-size: 34px;
+	color: #FFF;
+	text-align: center;
+	margin: auto;
+	height: 105px;
+    line-height: 105px;
+    border: 1px solid #EA9E17;
+}
+
+.btnActive {
+	background: #EA9E17;
+	border: 1px solid #EA9E17;
+}
+
+.tipDiv {
+	text-align: left;
+	padding: 20px 26px;
+	color: #878787;
+	font-family: PingFangSC-Regular;
+	font-size: 26px;
+	color: #9E9E9F;
+	line-height: 44px;
+}
+
+.amt {
+	color: #ff472f;
+}
+
+.toastDiv {
+	text-align: center;
+	height: 120px;
+    line-height: 120px;
+}
+
+//券充值新增
+.containBan {
+	width: 91%;
+	padding: 0 1%;
+	margin: 0 auto;
+	box-shadow: 0 2px 20px 0 rgba(0,121,197,0.10);
+	border-radius: 40px;	
+}
+
+.bottomLine {
+	border-bottom: 0.8px solid #a2a2a2;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.tabBan {
+	display: flex;
+	padding: 0 0 20px 20px;
+	align-items: center;
+}
+
+.tabBar {
+	width: 28%;
+	font-family: PingFangSC-Regular;
+	font-size: 30px;
+	color: #5A6169;
+}
+
+.tab {
+	font-family: PingFangSC-Medium;
+	font-size: 35px;
+	color: #F79F00;
+	line-height: 60px;
+}
+.tabBottom {
+	height: 5px;
+	background: #f79f00;
+	width: 60px;
+	margin: 0.1rem auto;
+}
+
+.desBan {
+	font-family: PingFangSC-Regular;
+	font-size: 30px;
+	color: #A2A2A2;
+	text-align: left;
+	padding: 10px 22px;
+	margin-bottom: 10px;
+}
+
+.voucherBan {
+	width: 91%;
+	// height: 300px;
+	margin: 20px auto;
+	box-shadow: 0 2px 20px 0 rgba(0,121,197,0.10);
+	border-radius: 20px;	
+}
+
+.voucherIssure {
+	line-height: 83px;
+	font-family: PingFangSC-Medium;
+	font-size: 31px;
+	color: #F79F00;
+	background: #feefd2;
+	border-radius: 20px 20px 0 0;	
+}
+
+.vcode{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.code{
+	width: 100%;
+	padding: 0;
+	height: 40px;
+	font-size: 35px;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	opacity: 0;
+	margin-left: -100%; // ios上透明度为0时依然有光标
+	-webkit-tap-highlight-color: transparent;
+}
+.labels{
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	height: 40px;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	margin-top: -40px;
+	-webkit-tap-highlight-color: transparent;// 解决ios点击灰色阴影的问题
+}
+.label{
+	height: 34px;
+	width: 12%;
+	border-bottom: solid 2px #313131;
+	float: left;
+	color: #313131;
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+.active:after{ // 伪类实现光标效果
+	content: ' ';
+	display: inline-block;
+	height: 100%;
+	width: 2px;
+	background: #313131;
+	animation: .8s animate infinite;
+}
+.textInput {
+	z-index: 10000;
+	display: inline-block;
+	outline: none;
+	width: 200%;
+	// line-height: 300px;
+	padding: 0.05rem 0 0.3rem 0;
+	height: 150px;
+	border:1px solid white;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	opacity: 0;
+	margin-left: -100%; // ios上透明度为0时依然有光标
+	-webkit-tap-highlight-color: transparent;
+}
+.eachNo {	
+	display: flex;
+	padding: 0 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	margin-top: -140px;
+	-webkit-tap-highlight-color: transparent;// 解决ios点击灰色阴影的问题
+}
+.labelNum {
+	display: inline-block;
+	height: 62px;
+	width: 10%;
+	padding: 5px 0;
+	margin: 0 1% 0.45rem 1%;
+	border-bottom: solid 2.5px #d8d8d8;
+	font-family: PingFangSC-Regular;
+	font-size: 40px;
+	color: #505064;
+	line-height: 60px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+.focusLabel::after {
+	content: '';
+	display: inline-block;
+	width:1px;
+	height:70%;
+	text-align: center;
+	animation: blink 1s infinite steps(1, start)
+}
+@keyframes blink {
+	0%{
+	background-color: white;
+	}
+	50% {
+	background-color: #303033;
+	}
+	100% {
+	background-color: white;
+	}
+}
+
+.containerBan {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+

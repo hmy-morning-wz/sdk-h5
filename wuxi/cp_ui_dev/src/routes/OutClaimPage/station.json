@@ -1,0 +1,198 @@
+{
+  "code": 200,
+  "msg": "SUCCESS",
+  "data": [
+    {
+      "line_no": "1",
+      "line_name": "1号线",
+      "stations": [
+        {
+          "station_no": "0101",
+          "station_name": "堰桥"
+        },
+        {
+          "station_no": "0102",
+          "station_name": "锡北运河"
+        },
+        {
+          "station_no": "0103",
+          "station_name": "西漳"
+        },
+        {
+          "station_no": "0104",
+          "station_name": "天一"
+        },
+        {
+          "station_no": "0105",
+          "station_name": "刘潭"
+        },
+        {
+          "station_no": "0106",
+          "station_name": "庄前"
+        },
+        {
+          "station_no": "0107",
+          "station_name": "民丰"
+        },
+        {
+          "station_no": "0108",
+          "station_name": "无锡火车站"
+        },
+        {
+          "station_no": "0109",
+          "station_name": "胜利门"
+        },
+        {
+          "station_no": "0110",
+          "station_name": "三阳广场"
+        },
+        {
+          "station_no": "0111",
+          "station_name": "南禅寺"
+        },
+        {
+          "station_no": "0112",
+          "station_name": "谈渡桥"
+        },
+        {
+          "station_no": "0113",
+          "station_name": "太湖广场"
+        },
+        {
+          "station_no": "0114",
+          "station_name": "清名桥"
+        },
+        {
+          "station_no": "0115",
+          "station_name": "人民医院"
+        },
+        {
+          "station_no": "0116",
+          "station_name": "华清大桥"
+        },
+        {
+          "station_no": "0117",
+          "station_name": "扬名"
+        },
+        {
+          "station_no": "0118",
+          "station_name": "南湖家园"
+        },
+        {
+          "station_no": "0119",
+          "station_name": "塘铁桥"
+        },
+        {
+          "station_no": "0120",
+          "station_name": "金匮公园"
+        },
+        {
+          "station_no": "0121",
+          "station_name": "市民中心"
+        },
+        {
+          "station_no": "0122",
+          "station_name": "文化宫"
+        },
+        {
+          "station_no": "0123",
+          "station_name": "江南大学"
+        },
+        {
+          "station_no": "0124",
+          "station_name": "长广溪"
+        }
+      ]
+    },
+    {
+      "line_no": "2",
+      "line_name": "2号线",
+      "stations": [
+        {
+          "station_no": "0201",
+          "station_name": "梅园开原寺"
+        },
+        {
+          "station_no": "0202",
+          "station_name": "荣巷"
+        },
+        {
+          "station_no": "0203",
+          "station_name": "小桃源"
+        },
+        {
+          "station_no": "0204",
+          "station_name": "河埒口"
+        },
+        {
+          "station_no": "0205",
+          "station_name": "大王基"
+        },
+        {
+          "station_no": "0206",
+          "station_name": "梁溪大桥"
+        },
+        {
+          "station_no": "0207",
+          "station_name": "五爱广场"
+        },
+        {
+          "station_no": "0209",
+          "station_name": "东林广场"
+        },
+        {
+          "station_no": "0210",
+          "station_name": "上马墩"
+        },
+        {
+          "station_no": "0211",
+          "station_name": "靖海"
+        },
+        {
+          "station_no": "0212",
+          "station_name": "广益"
+        },
+        {
+          "station_no": "0213",
+          "station_name": "柏庄"
+        },
+        {
+          "station_no": "0214",
+          "station_name": "东亭"
+        },
+        {
+          "station_no": "0215",
+          "station_name": "庄桥"
+        },
+        {
+          "station_no": "0216",
+          "station_name": "云林"
+        },
+        {
+          "station_no": "0217",
+          "station_name": "九里河公园"
+        },
+        {
+          "station_no": "0218",
+          "station_name": "查桥"
+        },
+        {
+          "station_no": "0219",
+          "station_name": "映月湖公园"
+        },
+        {
+          "station_no": "0220",
+          "station_name": "迎宾广场"
+        },
+        {
+          "station_no": "0221",
+          "station_name": "无锡东站"
+        },
+        {
+          "station_no": "0222",
+          "station_name": "安镇"
+        }
+      ]
+    }
+  ]
+}
